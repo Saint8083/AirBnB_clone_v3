@@ -1,5 +1,10 @@
-# AirBnB Clone - The Console
-The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+# Flask-CORS
+
+A Flask extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible.
+
+This package has a simple philosophy: when you want to enable CORS, you wish to enable it for all use cases on a domain. This means no mucking around with different allowed headers, methods, etc.
+
+By default, submission of cookies across domains is disabled due to the security implications. Please see the documentation for how to enable credential’ed requests, and please make sure you add some sort of CSRF protection before doing so!
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
@@ -126,7 +131,3 @@ vagrantAirBnB_clone$./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  all  create  destroy  help  quit  show  update
-
-## Authors
-Saint8083 - [Github](https://github.com/Saint8083) / [Twitter](https://twitter.com/Saint8083)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
